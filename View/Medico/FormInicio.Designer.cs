@@ -65,7 +65,7 @@
             // 
             this.lbSaludo.AutoSize = true;
             this.lbSaludo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbSaludo.Font = new System.Drawing.Font("Oswald", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSaludo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbSaludo.Location = new System.Drawing.Point(39, 71);
             this.lbSaludo.Name = "lbSaludo";
             this.lbSaludo.Size = new System.Drawing.Size(656, 67);
@@ -77,7 +77,7 @@
             // 
             this.lbFecha.AutoSize = true;
             this.lbFecha.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbFecha.Font = new System.Drawing.Font("Oswald", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbFecha.Location = new System.Drawing.Point(39, 171);
             this.lbFecha.Name = "lbFecha";
             this.lbFecha.Size = new System.Drawing.Size(656, 67);
@@ -89,7 +89,7 @@
             // 
             this.lbHora.AutoSize = true;
             this.lbHora.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbHora.Font = new System.Drawing.Font("Oswald", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbHora.Location = new System.Drawing.Point(39, 271);
             this.lbHora.Name = "lbHora";
             this.lbHora.Size = new System.Drawing.Size(656, 67);
@@ -109,6 +109,7 @@
             this.Controls.Add(this.tlInicio);
             this.Name = "FormInicio";
             this.Text = "FormInicio";
+            this.Load += new System.EventHandler(this.FormInicio_Load);
             this.tlInicio.ResumeLayout(false);
             this.tlInicio.PerformLayout();
             this.ResumeLayout(false);

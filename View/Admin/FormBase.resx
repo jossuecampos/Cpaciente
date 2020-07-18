@@ -121,6 +121,10 @@
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 42</value>
@@ -146,7 +150,6 @@
   <data name="tlMenuBase.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnFullScreen.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -576,6 +579,9 @@
         /8NT09DhO3B4Q/5DR3GLsaTKTQjvq5JrUJT+P4cAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="btnColapsar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnColapsar.Location" type="System.Drawing.Point, System.Drawing">
     <value>137, 3</value>
   </data>
@@ -615,6 +621,9 @@
         i14VPj2YdWYcnSx/0uwqOgkPUkRfWA+hL/QYvVCDn/iOH47Gei/l/WHein6BanxuR/eQMQyEZUqS/oMU
         JXGyKImTxQjMDZTJEpibMijuAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="btnRotar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnRotar.Location" type="System.Drawing.Point, System.Drawing">
     <value>134, 485</value>

@@ -16,7 +16,7 @@ namespace cPaciente
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new View.Admin.FormBase());
+            Application.Run(new View.FormLogin());
         }
     }
 }

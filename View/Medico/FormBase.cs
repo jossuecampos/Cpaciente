@@ -14,17 +14,19 @@ namespace cPaciente.View.Medico
     {
         Button botonActual;
         bool pantallaCompleta;
-
+        public string codigoUser;
         public FormBase()
         {
             InitializeComponent();
             toolTipBase.Active = false;
-            AbrirFormulario<FormInicio>();
+          //  AbrirFormulario<FormInicio>();
         }        
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            FormLogin log = new FormLogin();
+            log.Show();
+            Hide();
         }
 
         private void btnPerfil_Click(object sender, EventArgs e)
@@ -208,5 +210,24 @@ namespace cPaciente.View.Medico
             pantallaCompleta = !pantallaCompleta;
         }
 
+        private void FormBase_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormLogin lg = new FormLogin();
+            lg.Show();
+        }
+
+        private void FormBase_Load(object sender, EventArgs e)
+        {
+            Medico.FormInicio fi = new Medico.FormInicio();
+            // MessageBox.Show(codigoUser);
+            fi.TopLevel = false;
+            fi.FormBorderStyle = FormBorderStyle.None;
+            fi.Dock = DockStyle.Fill;
+            panelContenido.Controls.Add(fi);
+            panelContenido.Tag = fi;
+            fi.codEmpleado = codigoUser;
+            fi.Show();
+            fi.BringToFront();
+        }
     }
 }

@@ -146,9 +146,6 @@
   <data name="tlMenuBase.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <metadata name="toolTipBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnHorarios.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -204,6 +201,9 @@
   <data name="btnHorarios.Text" xml:space="preserve">
     <value>  Horarios</value>
   </data>
+  <metadata name="toolTipBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="btnHorarios.ToolTip" xml:space="preserve">
     <value>Personal</value>
   </data>
@@ -625,9 +625,6 @@
   <data name="btnConsulta.Text" xml:space="preserve">
     <value>     Consultas</value>
   </data>
-  <metadata name="toolTipBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="btnConsulta.ToolTip" xml:space="preserve">
     <value>Clínica</value>
   </data>

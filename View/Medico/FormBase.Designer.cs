@@ -181,6 +181,8 @@
             this.Controls.Add(this.panelContenido);
             this.Controls.Add(this.panelLateral);
             this.Name = "FormBase";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormBase_FormClosing);
+            this.Load += new System.EventHandler(this.FormBase_Load);
             this.panelLateral.ResumeLayout(false);
             this.panelLateral.PerformLayout();
             this.tlMenuBase.ResumeLayout(false);
