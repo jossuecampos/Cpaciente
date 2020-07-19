@@ -42,12 +42,12 @@
             this.lbHorario = new System.Windows.Forms.Label();
             this.gbUbicacion = new System.Windows.Forms.GroupBox();
             this.tlUbicacion = new System.Windows.Forms.TableLayoutPanel();
-            this.cbMunicipio = new System.Windows.Forms.ComboBox();
             this.tbDir = new System.Windows.Forms.TextBox();
-            this.cbDepartamento = new System.Windows.Forms.ComboBox();
             this.lbDir = new System.Windows.Forms.Label();
             this.lbDepartamento = new System.Windows.Forms.Label();
             this.lbMunicipio = new System.Windows.Forms.Label();
+            this.cbMunicipio = new System.Windows.Forms.ComboBox();
+            this.cbDepartamento = new System.Windows.Forms.ComboBox();
             this.tlBotones = new System.Windows.Forms.TableLayoutPanel();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
@@ -77,14 +77,15 @@
             // 
             this.tlPanel.ColumnCount = 4;
             this.tlPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.534734F));
-            this.tlPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.46527F));
-            this.tlPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.46527F));
+            this.tlPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.22283F));
+            this.tlPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45.5163F));
             this.tlPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.534734F));
             this.tlPanel.Controls.Add(this.gbContacto, 1, 1);
             this.tlPanel.Controls.Add(this.gbUbicacion, 2, 1);
             this.tlPanel.Controls.Add(this.tlBotones, 2, 2);
             this.tlPanel.Controls.Add(this.tlPerfil, 1, 0);
             this.tlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tlPanel.Location = new System.Drawing.Point(0, 0);
             this.tlPanel.Name = "tlPanel";
             this.tlPanel.RowCount = 3;
@@ -101,7 +102,7 @@
             this.gbContacto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbContacto.Location = new System.Drawing.Point(14, 257);
             this.gbContacto.Name = "gbContacto";
-            this.gbContacto.Size = new System.Drawing.Size(350, 205);
+            this.gbContacto.Size = new System.Drawing.Size(371, 205);
             this.gbContacto.TabIndex = 9;
             this.gbContacto.TabStop = false;
             this.gbContacto.Text = "Contácto";
@@ -127,7 +128,7 @@
             this.tlPersonal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tlPersonal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tlPersonal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPersonal.Size = new System.Drawing.Size(344, 176);
+            this.tlPersonal.Size = new System.Drawing.Size(365, 176);
             this.tlPersonal.TabIndex = 15;
             // 
             // lbCorreo
@@ -136,7 +137,7 @@
             this.lbCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCorreo.Location = new System.Drawing.Point(3, 20);
             this.lbCorreo.Name = "lbCorreo";
-            this.lbCorreo.Size = new System.Drawing.Size(131, 39);
+            this.lbCorreo.Size = new System.Drawing.Size(140, 39);
             this.lbCorreo.TabIndex = 15;
             this.lbCorreo.Text = "Correo:";
             // 
@@ -144,9 +145,9 @@
             // 
             this.tbCorreo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCorreo.Location = new System.Drawing.Point(140, 23);
+            this.tbCorreo.Location = new System.Drawing.Point(149, 23);
             this.tbCorreo.Name = "tbCorreo";
-            this.tbCorreo.Size = new System.Drawing.Size(201, 23);
+            this.tbCorreo.Size = new System.Drawing.Size(213, 23);
             this.tbCorreo.TabIndex = 18;
             // 
             // lbTel
@@ -155,7 +156,7 @@
             this.lbTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTel.Location = new System.Drawing.Point(3, 59);
             this.lbTel.Name = "lbTel";
-            this.lbTel.Size = new System.Drawing.Size(131, 39);
+            this.lbTel.Size = new System.Drawing.Size(140, 39);
             this.lbTel.TabIndex = 16;
             this.lbTel.Text = "Teléfono:";
             // 
@@ -163,9 +164,9 @@
             // 
             this.tbTel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTel.Location = new System.Drawing.Point(140, 62);
+            this.tbTel.Location = new System.Drawing.Point(149, 62);
             this.tbTel.Name = "tbTel";
-            this.tbTel.Size = new System.Drawing.Size(201, 23);
+            this.tbTel.Size = new System.Drawing.Size(213, 23);
             this.tbTel.TabIndex = 19;
             // 
             // tlHorario
@@ -176,18 +177,18 @@
             this.tlHorario.Controls.Add(this.numericUpDown1, 1, 0);
             this.tlHorario.Controls.Add(this.nudHoraInicio, 0, 0);
             this.tlHorario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlHorario.Location = new System.Drawing.Point(140, 101);
+            this.tlHorario.Location = new System.Drawing.Point(149, 101);
             this.tlHorario.Name = "tlHorario";
             this.tlHorario.RowCount = 1;
             this.tlHorario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tlHorario.Size = new System.Drawing.Size(201, 33);
+            this.tlHorario.Size = new System.Drawing.Size(213, 33);
             this.tlHorario.TabIndex = 22;
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(103, 3);
+            this.numericUpDown1.Location = new System.Drawing.Point(109, 3);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             17,
             0,
@@ -199,7 +200,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(95, 24);
+            this.numericUpDown1.Size = new System.Drawing.Size(101, 24);
             this.numericUpDown1.TabIndex = 1;
             this.numericUpDown1.Value = new decimal(new int[] {
             8,
@@ -223,7 +224,7 @@
             0,
             0});
             this.nudHoraInicio.Name = "nudHoraInicio";
-            this.nudHoraInicio.Size = new System.Drawing.Size(94, 24);
+            this.nudHoraInicio.Size = new System.Drawing.Size(100, 24);
             this.nudHoraInicio.TabIndex = 0;
             this.nudHoraInicio.Value = new decimal(new int[] {
             8,
@@ -245,9 +246,9 @@
             this.gbUbicacion.Controls.Add(this.tlUbicacion);
             this.gbUbicacion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbUbicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbUbicacion.Location = new System.Drawing.Point(370, 257);
+            this.gbUbicacion.Location = new System.Drawing.Point(391, 257);
             this.gbUbicacion.Name = "gbUbicacion";
-            this.gbUbicacion.Size = new System.Drawing.Size(350, 205);
+            this.gbUbicacion.Size = new System.Drawing.Size(329, 205);
             this.gbUbicacion.TabIndex = 10;
             this.gbUbicacion.TabStop = false;
             this.gbUbicacion.Text = "Ubicación";
@@ -257,12 +258,12 @@
             this.tlUbicacion.ColumnCount = 2;
             this.tlUbicacion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tlUbicacion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tlUbicacion.Controls.Add(this.cbMunicipio, 1, 1);
             this.tlUbicacion.Controls.Add(this.tbDir, 1, 3);
-            this.tlUbicacion.Controls.Add(this.cbDepartamento, 1, 2);
             this.tlUbicacion.Controls.Add(this.lbDir, 0, 3);
             this.tlUbicacion.Controls.Add(this.lbDepartamento, 0, 1);
             this.tlUbicacion.Controls.Add(this.lbMunicipio, 0, 2);
+            this.tlUbicacion.Controls.Add(this.cbMunicipio, 1, 2);
+            this.tlUbicacion.Controls.Add(this.cbDepartamento, 1, 1);
             this.tlUbicacion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlUbicacion.Location = new System.Drawing.Point(3, 26);
             this.tlUbicacion.Name = "tlUbicacion";
@@ -271,38 +272,18 @@
             this.tlUbicacion.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tlUbicacion.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tlUbicacion.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tlUbicacion.Size = new System.Drawing.Size(344, 176);
+            this.tlUbicacion.Size = new System.Drawing.Size(323, 176);
             this.tlUbicacion.TabIndex = 17;
-            // 
-            // cbMunicipio
-            // 
-            this.cbMunicipio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cbMunicipio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbMunicipio.FormattingEnabled = true;
-            this.cbMunicipio.Location = new System.Drawing.Point(140, 23);
-            this.cbMunicipio.Name = "cbMunicipio";
-            this.cbMunicipio.Size = new System.Drawing.Size(201, 24);
-            this.cbMunicipio.TabIndex = 15;
             // 
             // tbDir
             // 
             this.tbDir.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbDir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbDir.Location = new System.Drawing.Point(140, 126);
+            this.tbDir.Location = new System.Drawing.Point(132, 126);
             this.tbDir.Multiline = true;
             this.tbDir.Name = "tbDir";
-            this.tbDir.Size = new System.Drawing.Size(201, 47);
+            this.tbDir.Size = new System.Drawing.Size(188, 47);
             this.tbDir.TabIndex = 22;
-            // 
-            // cbDepartamento
-            // 
-            this.cbDepartamento.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cbDepartamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbDepartamento.FormattingEnabled = true;
-            this.cbDepartamento.Location = new System.Drawing.Point(140, 74);
-            this.cbDepartamento.Name = "cbDepartamento";
-            this.cbDepartamento.Size = new System.Drawing.Size(201, 24);
-            this.cbDepartamento.TabIndex = 0;
             // 
             // lbDir
             // 
@@ -310,7 +291,7 @@
             this.lbDir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDir.Location = new System.Drawing.Point(3, 123);
             this.lbDir.Name = "lbDir";
-            this.lbDir.Size = new System.Drawing.Size(131, 53);
+            this.lbDir.Size = new System.Drawing.Size(123, 53);
             this.lbDir.TabIndex = 17;
             this.lbDir.Text = "Dirección:";
             // 
@@ -320,7 +301,7 @@
             this.lbDepartamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDepartamento.Location = new System.Drawing.Point(3, 20);
             this.lbDepartamento.Name = "lbDepartamento";
-            this.lbDepartamento.Size = new System.Drawing.Size(131, 51);
+            this.lbDepartamento.Size = new System.Drawing.Size(123, 51);
             this.lbDepartamento.TabIndex = 14;
             this.lbDepartamento.Text = "Departamento:";
             // 
@@ -330,9 +311,30 @@
             this.lbMunicipio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMunicipio.Location = new System.Drawing.Point(3, 71);
             this.lbMunicipio.Name = "lbMunicipio";
-            this.lbMunicipio.Size = new System.Drawing.Size(131, 52);
+            this.lbMunicipio.Size = new System.Drawing.Size(123, 52);
             this.lbMunicipio.TabIndex = 15;
             this.lbMunicipio.Text = "Municipio:";
+            // 
+            // cbMunicipio
+            // 
+            this.cbMunicipio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbMunicipio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbMunicipio.FormattingEnabled = true;
+            this.cbMunicipio.Location = new System.Drawing.Point(132, 74);
+            this.cbMunicipio.Name = "cbMunicipio";
+            this.cbMunicipio.Size = new System.Drawing.Size(188, 24);
+            this.cbMunicipio.TabIndex = 15;
+            // 
+            // cbDepartamento
+            // 
+            this.cbDepartamento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbDepartamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbDepartamento.FormattingEnabled = true;
+            this.cbDepartamento.Location = new System.Drawing.Point(132, 23);
+            this.cbDepartamento.Name = "cbDepartamento";
+            this.cbDepartamento.Size = new System.Drawing.Size(188, 24);
+            this.cbDepartamento.TabIndex = 0;
+            this.cbDepartamento.SelectedValueChanged += new System.EventHandler(this.cbDepartamento_SelectedValueChanged);
             // 
             // tlBotones
             // 
@@ -342,11 +344,11 @@
             this.tlBotones.Controls.Add(this.btnActualizar, 0, 0);
             this.tlBotones.Controls.Add(this.btnCancelar, 1, 0);
             this.tlBotones.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlBotones.Location = new System.Drawing.Point(370, 468);
+            this.tlBotones.Location = new System.Drawing.Point(391, 468);
             this.tlBotones.Name = "tlBotones";
             this.tlBotones.RowCount = 1;
             this.tlBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tlBotones.Size = new System.Drawing.Size(350, 40);
+            this.tlBotones.Size = new System.Drawing.Size(329, 40);
             this.tlBotones.TabIndex = 14;
             // 
             // btnActualizar
@@ -354,7 +356,7 @@
             this.btnActualizar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnActualizar.Location = new System.Drawing.Point(3, 3);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(169, 34);
+            this.btnActualizar.Size = new System.Drawing.Size(158, 34);
             this.btnActualizar.TabIndex = 14;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
@@ -362,9 +364,9 @@
             // btnCancelar
             // 
             this.btnCancelar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnCancelar.Location = new System.Drawing.Point(178, 3);
+            this.btnCancelar.Location = new System.Drawing.Point(167, 3);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(169, 34);
+            this.btnCancelar.Size = new System.Drawing.Size(159, 34);
             this.btnCancelar.TabIndex = 13;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -373,7 +375,7 @@
             // 
             this.tlPerfil.ColumnCount = 2;
             this.tlPerfil.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
-            this.tlPerfil.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPerfil.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 221F));
             this.tlPerfil.Controls.Add(this.btnCambiarImagen, 0, 3);
             this.tlPerfil.Controls.Add(this.pbImgPerfil, 0, 1);
             this.tlPerfil.Controls.Add(this.tlDatos, 1, 1);
@@ -382,17 +384,17 @@
             this.tlPerfil.Name = "tlPerfil";
             this.tlPerfil.RowCount = 5;
             this.tlPerfil.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.82645F));
-            this.tlPerfil.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tlPerfil.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 135F));
             this.tlPerfil.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.30303F));
             this.tlPerfil.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.65289F));
             this.tlPerfil.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.21763F));
-            this.tlPerfil.Size = new System.Drawing.Size(350, 248);
+            this.tlPerfil.Size = new System.Drawing.Size(371, 248);
             this.tlPerfil.TabIndex = 15;
             // 
             // btnCambiarImagen
             // 
             this.btnCambiarImagen.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCambiarImagen.Location = new System.Drawing.Point(3, 183);
+            this.btnCambiarImagen.Location = new System.Drawing.Point(3, 172);
             this.btnCambiarImagen.Name = "btnCambiarImagen";
             this.btnCambiarImagen.Size = new System.Drawing.Size(144, 35);
             this.btnCambiarImagen.TabIndex = 0;
@@ -403,9 +405,9 @@
             // 
             this.pbImgPerfil.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbImgPerfil.Image = ((System.Drawing.Image)(resources.GetObject("pbImgPerfil.Image")));
-            this.pbImgPerfil.Location = new System.Drawing.Point(3, 28);
+            this.pbImgPerfil.Location = new System.Drawing.Point(3, 32);
             this.pbImgPerfil.Name = "pbImgPerfil";
-            this.pbImgPerfil.Size = new System.Drawing.Size(144, 144);
+            this.pbImgPerfil.Size = new System.Drawing.Size(144, 129);
             this.pbImgPerfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImgPerfil.TabIndex = 2;
             this.pbImgPerfil.TabStop = false;
@@ -419,7 +421,7 @@
             this.tlDatos.Controls.Add(this.lbCorreoActual, 0, 2);
             this.tlDatos.Controls.Add(this.lbNombre, 0, 1);
             this.tlDatos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlDatos.Location = new System.Drawing.Point(153, 28);
+            this.tlDatos.Location = new System.Drawing.Point(153, 32);
             this.tlDatos.Name = "tlDatos";
             this.tlDatos.RowCount = 5;
             this.tlDatos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -427,17 +429,17 @@
             this.tlDatos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlDatos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlDatos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlDatos.Size = new System.Drawing.Size(194, 144);
+            this.tlDatos.Size = new System.Drawing.Size(215, 129);
             this.tlDatos.TabIndex = 3;
             // 
             // lbDirActual
             // 
             this.lbDirActual.AutoSize = true;
             this.lbDirActual.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lbDirActual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDirActual.Location = new System.Drawing.Point(3, 112);
+            this.lbDirActual.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDirActual.Location = new System.Drawing.Point(3, 100);
             this.lbDirActual.Name = "lbDirActual";
-            this.lbDirActual.Size = new System.Drawing.Size(75, 32);
+            this.lbDirActual.Size = new System.Drawing.Size(52, 29);
             this.lbDirActual.TabIndex = 4;
             this.lbDirActual.Text = "Dirección";
             this.lbDirActual.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -446,10 +448,10 @@
             // 
             this.lbTelActual.AutoSize = true;
             this.lbTelActual.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lbTelActual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTelActual.Location = new System.Drawing.Point(3, 84);
+            this.lbTelActual.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTelActual.Location = new System.Drawing.Point(3, 75);
             this.lbTelActual.Name = "lbTelActual";
-            this.lbTelActual.Size = new System.Drawing.Size(71, 28);
+            this.lbTelActual.Size = new System.Drawing.Size(62, 25);
             this.lbTelActual.TabIndex = 3;
             this.lbTelActual.Text = "Teléfono";
             this.lbTelActual.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -458,10 +460,10 @@
             // 
             this.lbCorreoActual.AutoSize = true;
             this.lbCorreoActual.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lbCorreoActual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCorreoActual.Location = new System.Drawing.Point(3, 56);
+            this.lbCorreoActual.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCorreoActual.Location = new System.Drawing.Point(3, 50);
             this.lbCorreoActual.Name = "lbCorreoActual";
-            this.lbCorreoActual.Size = new System.Drawing.Size(57, 28);
+            this.lbCorreoActual.Size = new System.Drawing.Size(49, 25);
             this.lbCorreoActual.TabIndex = 2;
             this.lbCorreoActual.Text = "Correo";
             this.lbCorreoActual.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -470,10 +472,11 @@
             // 
             this.lbNombre.AutoSize = true;
             this.lbNombre.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lbNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNombre.Location = new System.Drawing.Point(3, 28);
+            this.lbNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbNombre.Location = new System.Drawing.Point(3, 25);
             this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(65, 28);
+            this.lbNombre.Size = new System.Drawing.Size(93, 25);
             this.lbNombre.TabIndex = 0;
             this.lbNombre.Text = "Nombre";
             this.lbNombre.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -486,6 +489,7 @@
             this.Controls.Add(this.tlPanel);
             this.Name = "FormClinica";
             this.Text = "FormClinica";
+            this.Load += new System.EventHandler(this.FormClinica_Load);
             this.tlPanel.ResumeLayout(false);
             this.gbContacto.ResumeLayout(false);
             this.tlPersonal.ResumeLayout(false);
